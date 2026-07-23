@@ -13,7 +13,7 @@ import Button from "../common/Button";
 
 export default function SetupPhase() {
   const {
-    title, setTitle,
+    setTitle,
     options, addOption, removeOption,
     criteria, addCriterion, removeCriterion, setCriterionType, setObjectiveValue,
     goToWizard, getRequiredComparisonCount,
